@@ -1,0 +1,16 @@
+.login_form_wrap {
+    background: #fff;
+    border-radius: 10px;
+    height: calc(100vh - 20px);
+}
+
+.login_title {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.login_body {
+    padding: 20px;
+    margin: 0 auto;
+    width: 600px;
+}

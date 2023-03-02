@@ -1,0 +1,25 @@
+.msg_wrap {
+    margin-bottom: 10px;
+}
+
+.local .msg_body_wrap {
+    background: #4D426D;
+    border-radius: 40px 0px 40px 40px;
+}
+
+.external .msg_body_wrap {
+    background: #f5f7fb;
+    border-radius: 0px 40px 40px 40px;
+}
+
+.msg_body {
+    padding: 20px;
+}
+
+.local .msg_body_text {
+    color: #edecf0;
+}
+
+.external .msg_body_text {
+    color: #5d5d5e;
+}

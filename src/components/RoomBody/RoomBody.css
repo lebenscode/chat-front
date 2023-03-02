@@ -1,0 +1,17 @@
+.room_body_wrap {
+    overflow-y: auto;
+    overflow-x: scroll;
+    height: auto;
+    flex-grow: 1;
+}
+
+.room_body_content {
+    padding: 20px 10px;
+}
+
+.room_body_empty {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: calc(100vh - 210px);
+}

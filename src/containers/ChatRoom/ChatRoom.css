@@ -1,0 +1,27 @@
+.room_block {
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+}
+
+.room_cont_wrap {
+    height: calc(100vh - 110px);
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.empty_room_wrap{
+    height: calc(100vh - 20px);
+}
+
+.empty_room_body_wrap {
+    width: 100%;
+    flex-grow: 1;
+}
+
+.empty_room_body {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: calc(100vh - 20px);
+}

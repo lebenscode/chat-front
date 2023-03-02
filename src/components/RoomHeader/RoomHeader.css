@@ -1,0 +1,49 @@
+.room_header {
+    height: 64px;
+    margin-bottom: 15px;
+}
+
+.room_header_cont {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.room_header_avatar_wrap {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.room_header_avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.room_header_title_wrap {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.room_header_title {
+    color: #494949;
+    font-weight: bold;
+}
+
+.room_header_stats {
+    padding: 0 10px 0 20px;
+    color: #494949;
+}
+
+.room_header_users_count {
+    font-weight: bold;
+    padding-left: 5px;
+}

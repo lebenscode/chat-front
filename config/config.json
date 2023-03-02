@@ -1,0 +1,7 @@
+{
+  "api": {
+      "protocol": "http",
+      "host": "localhost:4444",
+      "socket": "ws://localhost:4445"
+  }
+}

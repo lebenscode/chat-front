@@ -1,0 +1,19 @@
+.layout_wrap {
+    background: #f5f7fb;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.layout_aside {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.layout_content {
+    flex-grow: 1;
+}

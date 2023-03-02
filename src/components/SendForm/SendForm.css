@@ -1,0 +1,57 @@
+.send_form_wrap {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.send_form_txt_box {
+    flex-grow: 1;
+    position: relative;
+}
+
+.send_form_txt_area {
+    background: #f5f7fb;
+    border: 0;
+    resize: none;
+    outline: none;
+    border-radius: 40px;
+    height: 80px;
+    padding: 20px 80px;
+    display: block;
+    color: #505051;
+    width: 100%;
+}
+
+.send_smile_btn {
+    background: #505050;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+.attach_file_btn {
+    background: #505050;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+}
+
+.send_form_btn {
+    width: 80px;
+    height: 80px;
+    background: #3ba58b;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.send_form_btn:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
